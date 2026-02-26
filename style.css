@@ -221,7 +221,7 @@ main img {
 
 /*FORMS*/
 .forms {
-    background-color: var(--color-secundario);
+    background-color: var(--color-principal);
     text-align: center;
     padding: 40px 0 40px 0;
 }
@@ -232,13 +232,13 @@ main img {
     font-size: 1.4em;
     padding: 10px 0 0 0;
     margin: 0;
-    color: var(--color-principal);
+    color: var(--color-secundario);
 }
 .forms p {
     font-size: 1em;
     padding: 10px 0 20px 0;
     margin: 0;
-    color: var(--color-principal);
+    color: var(--color-secundario);
 }
 .information-bloque .botones {
     width: 140px;
@@ -254,8 +254,8 @@ main img {
     width: 100px;
 }
 label .grupo-opciones {
-    font-family: var(--font-secundaria);
-    color: var(--color-principal);
+    font-family: var(--font-principal);
+    color: var(--color-secundario);
 }
 .formulario {
     max-width: 500px;
@@ -266,7 +266,7 @@ label .grupo-opciones {
   gap: 1rem;
 }
 .formulario .formtitle {
-    color: var(--color-principal);
+    color: var(--color-secundario);
     font-size: 1.4em;
     padding: 0;
     margin: 0;
@@ -295,17 +295,17 @@ label .grupo-opciones {
   display: flex;
   width: 10px;
   align-items: center;
-  font-family: var(--font-secundaria); /* Cambiá esto por el nombre real de tu fuente secundaria */
-  color: var(--color-principal); /* Este es tu color principal, definilo antes o reemplazalo por un valor hex como #A3A87B */
+  font-family: var(--font-principal); /* Cambiá esto por el nombre real de tu fuente secundaria */
+  color: var(--color-secundario); /* Este es tu color principal, definilo antes o reemplazalo por un valor hex como #A3A87B */
   font-size: 1em;
   gap: 6px;
 }
 
 .radio-option input[type="radio"] {
-  accent-color: var(--color-terciario); /* Cambia el color del círculo si el navegador lo soporta */
+  accent-color: var(--color-principal); /* Cambia el color del círculo si el navegador lo soporta */
 }
 .etiqueta {
-    font-family: var(--font-secundaria);
+    font-family: var(--font-principal);
     padding: 0;
     margin: 0;
 }
@@ -318,11 +318,11 @@ label .grupo-opciones {
 .formulario select,
 .formulario textarea {
   background-color: var(--color-principal);
-  border: none;
+  border: 1PX solid var(--color-secundario);
   border-radius: 12px;
   padding: 0.8rem;
   font-size: 1rem;
-  color: #a3a49d;
+  color:  var(--color-secundario);
   width: 100%;
   box-sizing: border-box;
 }
