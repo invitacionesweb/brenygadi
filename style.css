@@ -453,9 +453,9 @@ footer img {
 }
 .dresscode {
     width: 100%;
-    color: var(--color-secundario);
+    color: var(--color-principal);
     padding: 30px 0;
-    background-color: var(--color-principal);
+    background-color: var(--color-secundario);
     text-align: center;
 }
 .dresscode h3 {
